@@ -30,9 +30,9 @@ ssh_pwauth: True # dejar siempre activa el protocolo
 ```
 Para obtener el codigo completo puede acceder al siguiente link [cloud-config.txt](https://osm.etsi.org/gitlab/vnf-onboarding/osm-packages/-/blob/master/slice_basic_vnf/cloud_init/cloud-config.txt)
 
-> **NOTA** Es de resaltar que el protocolo ssh nos permite ejercer un acceso remoto a las mv, para finalizar le damos ejecutar instalación.
+> **NOTA** Es de resaltar que el protocolo ssh nos permite ejercer un acceso remoto a las VM, para finalizar le damos ejecutar instalación.
 
-Con esto se tendria la VM de bastion ejecutandoce, ahora tendremos que asignar una ip flotante, con el proposito de darle a mostrar todo lo que esta despues de la bastion al host, nos vamos a computacion -> instancias, aqui seleccionamos la MV, vamos al apartado 'actions', en esta se selecciona asignar ip flotante.
+Con esto se tendria la VM de bastion ejecutandoce, ahora tendremos que asignar una ip flotante, con el proposito de darle a mostrar todo lo que esta despues de la bastion al host, nos vamos a computacion -> instancias, aqui seleccionamos la VM, vamos al apartado 'actions', en esta se selecciona asignar ip flotante.
 
 Ya con la ip asignada solo nos queda configurar todo el entorno de la bastion, para ello abrimos la terminal de preferencia y escribimos lo siguiente
 
